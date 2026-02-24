@@ -18,5 +18,5 @@ class Campaign(BaseModel):
 
 class Application(BaseModel):
     campaign_id: str
-    influencer_id: str
+    influencer_email: str
     status: Optional[str] = "pending"
